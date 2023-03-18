@@ -14,6 +14,7 @@
 		F26AB71429C57A0500A6029B /* XCAChatGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB71329C57A0500A6029B /* XCAChatGPTTests.swift */; };
 		F26AB71E29C57A0500A6029B /* XCAChatGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB71D29C57A0500A6029B /* XCAChatGPTUITests.swift */; };
 		F26AB72029C57A0500A6029B /* XCAChatGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB71F29C57A0500A6029B /* XCAChatGPTUITestsLaunchTests.swift */; };
+		F26AB72D29C57A3F00A6029B /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F26AB71929C57A0500A6029B /* XCAChatGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCAChatGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AB71D29C57A0500A6029B /* XCAChatGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTUITests.swift; sourceTree = "<group>"; };
 		F26AB71F29C57A0500A6029B /* XCAChatGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F26AB70529C57A0400A6029B /* Assets.xcassets */,
 				F26AB70729C57A0400A6029B /* XCAChatGPT.entitlements */,
 				F26AB70829C57A0400A6029B /* Preview Content */,
+				F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */,
 			);
 			path = XCAChatGPT;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26AB72D29C57A3F00A6029B /* ChatGPTAPI.swift in Sources */,
 				F26AB70429C57A0400A6029B /* ContentView.swift in Sources */,
 				F26AB70229C57A0400A6029B /* XCAChatGPTApp.swift in Sources */,
 			);
