@@ -17,6 +17,7 @@
 		F26AB72D29C57A3F00A6029B /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */; };
 		F26AB72F29C5E4CB00A6029B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB72E29C5E4CB00A6029B /* ViewModel.swift */; };
 		F26AB73129C5E52000A6029B /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB73029C5E52000A6029B /* MessageRow.swift */; };
+		F26AB73329C5E83400A6029B /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB73229C5E83400A6029B /* DotLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 		F26AB72E29C5E4CB00A6029B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F26AB73029C5E52000A6029B /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		F26AB73229C5E83400A6029B /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */,
 				F26AB72E29C5E4CB00A6029B /* ViewModel.swift */,
 				F26AB73029C5E52000A6029B /* MessageRow.swift */,
+				F26AB73229C5E83400A6029B /* DotLoadingView.swift */,
 			);
 			path = XCAChatGPT;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				F26AB72D29C57A3F00A6029B /* ChatGPTAPI.swift in Sources */,
 				F26AB70429C57A0400A6029B /* ContentView.swift in Sources */,
 				F26AB72F29C5E4CB00A6029B /* ViewModel.swift in Sources */,
+				F26AB73329C5E83400A6029B /* DotLoadingView.swift in Sources */,
 				F26AB70229C57A0400A6029B /* XCAChatGPTApp.swift in Sources */,
 				F26AB73129C5E52000A6029B /* MessageRow.swift in Sources */,
 			);
