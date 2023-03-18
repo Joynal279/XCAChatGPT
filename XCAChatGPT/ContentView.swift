@@ -18,14 +18,16 @@ struct ContentView: View {
         .padding()
         .onAppear {
             Task {
-                let api = ChatGPTAPI(apiKey: "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")
+                let api = ChatGPTAPI(apiKey: "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")
                 do {
 //                    let stream = try await api.sendMessageStream(text: "What is James Bond?")
 //                    for try await line in stream {
 //                        print(line)
 //                    }
-                    let text = try await api.sendMessage("Tell me about Appnap Technologies Limited?")
+                    let text = try await api.sendMessage("Tell me about c program?")
                     print(text)
+                    let text1 = try await api.sendMessage("write c program how can i sum two number?")
+                    print(text1)
                         
                 }catch {
                     print(error.localizedDescription)
