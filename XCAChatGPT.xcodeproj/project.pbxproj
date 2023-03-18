@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F220CDB429C6076F002D1CF4 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CDB329C6076F002D1CF4 /* MessageRowView.swift */; };
 		F26AB70229C57A0400A6029B /* XCAChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB70129C57A0400A6029B /* XCAChatGPTApp.swift */; };
 		F26AB70429C57A0400A6029B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB70329C57A0400A6029B /* ContentView.swift */; };
 		F26AB70629C57A0400A6029B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB70529C57A0400A6029B /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F220CDB329C6076F002D1CF4 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
 		F26AB6FE29C57A0400A6029B /* XCAChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AB70129C57A0400A6029B /* XCAChatGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAChatGPTApp.swift; sourceTree = "<group>"; };
 		F26AB70329C57A0400A6029B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F26AB72E29C5E4CB00A6029B /* ViewModel.swift */,
 				F26AB73029C5E52000A6029B /* MessageRow.swift */,
 				F26AB73229C5E83400A6029B /* DotLoadingView.swift */,
+				F220CDB329C6076F002D1CF4 /* MessageRowView.swift */,
 			);
 			path = XCAChatGPT;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				F26AB72F29C5E4CB00A6029B /* ViewModel.swift in Sources */,
 				F26AB73329C5E83400A6029B /* DotLoadingView.swift in Sources */,
 				F26AB70229C57A0400A6029B /* XCAChatGPTApp.swift in Sources */,
+				F220CDB429C6076F002D1CF4 /* MessageRowView.swift in Sources */,
 				F26AB73129C5E52000A6029B /* MessageRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
