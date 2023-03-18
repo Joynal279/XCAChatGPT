@@ -31,7 +31,7 @@ import SwiftUI
 struct ContentView: View {
     
     @Environment(\.colorScheme) private var colorScheme
-    @StateObject var vm = ViewModel(api: ChatGPTAPI(apiKey: "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"))
+    @StateObject var vm = ViewModel(api: ChatGPTAPI(apiKey: "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"))
     @FocusState var isTextFieldFocused: Bool
     
     var body: some View {

@@ -82,6 +82,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F220CDB529C64434002D1CF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB73229C5E83400A6029B /* DotLoadingView.swift */,
+				F220CDB329C6076F002D1CF4 /* MessageRowView.swift */,
+				F26AB70329C57A0400A6029B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F220CDB629C64446002D1CF4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F220CDB729C64459002D1CF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB72E29C5E4CB00A6029B /* ViewModel.swift */,
+				F26AB73029C5E52000A6029B /* MessageRow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F220CDB829C64470002D1CF4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB70129C57A0400A6029B /* XCAChatGPTApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		F26AB6F529C57A0400A6029B = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +140,13 @@
 		F26AB70029C57A0400A6029B /* XCAChatGPT */ = {
 			isa = PBXGroup;
 			children = (
-				F26AB70129C57A0400A6029B /* XCAChatGPTApp.swift */,
-				F26AB70329C57A0400A6029B /* ContentView.swift */,
+				F220CDB829C64470002D1CF4 /* App */,
+				F220CDB629C64446002D1CF4 /* Services */,
+				F220CDB729C64459002D1CF4 /* Model */,
+				F220CDB529C64434002D1CF4 /* Views */,
 				F26AB70529C57A0400A6029B /* Assets.xcassets */,
 				F26AB70729C57A0400A6029B /* XCAChatGPT.entitlements */,
 				F26AB70829C57A0400A6029B /* Preview Content */,
-				F26AB72C29C57A3F00A6029B /* ChatGPTAPI.swift */,
-				F26AB72E29C5E4CB00A6029B /* ViewModel.swift */,
-				F26AB73029C5E52000A6029B /* MessageRow.swift */,
-				F26AB73229C5E83400A6029B /* DotLoadingView.swift */,
-				F220CDB329C6076F002D1CF4 /* MessageRowView.swift */,
 			);
 			path = XCAChatGPT;
 			sourceTree = "<group>";
